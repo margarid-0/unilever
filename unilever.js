@@ -27,8 +27,8 @@ var teclasMovimento
 
 // função preload do phaser3 para o carregamento dos assets utilizados
 cenaInicial.preload = function() {
-    this.load.image('bg', 'unilever/assets/bg-inicial.png')
-    this.load.image('personagem', 'unilever/assets/personagem.png')
+    this.load.image('bg', 'assets/bg-inicial.png')
+    this.load.image('personagem', 'assets/personagem.png')
 }
 
 // função create do phaser3 para atribuição de propriedades a elementos carregados na função anterior e definição de regras para o estilo de jogo escolhido pelo grupo
