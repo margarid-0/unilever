@@ -58,13 +58,15 @@ cenaInicial.create = function() {
 // função update do phaser3 para atribuição de características de atualização recorrente. No caso, os movimentos do personagem de acordo com as teclas pressionadas pelo usuário
 cenaInicial.update = function() {
 
-    // função condicional para que, ao apertar a tecla 'A' e, ao mesmo tempo, o personagem estiver a uma altura igual ou maior que 280 pixel, o personagem se move para a esquerda. A segunda condicional foi adicionada para evitar que o personagem se movimente enquanto executa o movimento de pular
+    // função condicional para que, ao apertar a tecla 'A' e, ao mesmo tempo, o personagem estiver a uma altura igual ou maior que 280 pixel, o personagem se move para a esquerda. A segunda condicional foi adicionada para evitar que o personagem se movimente enquanto executa o movimento de pular. além disso, foi adicionada uma funcionalidade para que o personagem mude de lado de acordo com a direção de movimento com o atributo setFlip
     if (teclasMovimento.left.isDown && personagemPrototipo.y >= 280) {
         personagemPrototipo.setVelocityX(-150)
+        personagemPrototipo.setFlip(true, false)
 
-    // função condicional para que, ao apertar a tecla 'D' e, ao mesmo tempo, o personagem estiver a uma altura igual ou maior que 280 pixel, o personagem se move para a direita. A segunda condicional foi adicionada para evitar que o personagem se movimente enquanto executa o movimento de pular    
+    // função condicional para que, ao apertar a tecla 'D' e, ao mesmo tempo, o personagem estiver a uma altura igual ou maior que 280 pixel, o personagem se move para a direita. A segunda condicional foi adicionada para evitar que o personagem se movimente enquanto executa o movimento de pular. além disso, foi adicionada uma funcionalidade para que o personagem mude de lado de acordo com a direção de movimento com o atributo setFlip
     } else if (teclasMovimento.right.isDown && personagemPrototipo.y >= 280) {
         personagemPrototipo.setVelocityX(150)
+        personagemPrototipo.setFlip(false, false)
 
     // finalização da estrutura condicional para que o personagem não se mova caso o usuário não esteja pressionando nenhuma tecla    
     } else {
