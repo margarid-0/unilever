@@ -219,7 +219,7 @@ Figura 1: detalhe da cena da partida do herói para a missão, usando sua nave
 *Imagem da tela inicial do jogo:*
 
 
-![alt text](../assets/bg-inicial.png)
+![alt text](assets/bg-inicial.png)
 
 
 
@@ -269,11 +269,6 @@ Figura 1: detalhe da cena da partida do herói para a missão, usando sua nave
 
 
 *Assim, o desenvolvimento do MVP foi concluído com os recursos e aprendizados que tivemos durante a primeira semana de aula.*
-
-
-
-
-
 
 
 ## 4.2. Desenvolvimento básico do jogo (sprint 2)
