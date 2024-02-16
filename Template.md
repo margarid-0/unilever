@@ -227,7 +227,7 @@ Figura 1: detalhe da cena da partida do herói para a missão, usando sua nave
 *Logo da empresa:*
 
 
-![alt text](../assets/Camaleão.png)
+![alt text](assets/Camaleão.png)
 
 
 
@@ -235,37 +235,37 @@ Figura 1: detalhe da cena da partida do herói para a missão, usando sua nave
 *Personagem temporário:*
 
 
-![alt text](../assets/personagem.png)
+![alt text](assets/personagem.png)
 
 
 *Na parte da programação, de primeira utilizamos alguns códigos para definir a cena inicial do jogo e o estilo de jogo:*
 
 
-![alt text](../assets/1.png)
+![alt text](assets/1.png)
 
 
 *Após isso, definimos variáveis de jogo, imagem de fundo, personagem, piso e teclas de movimentação para o funcionamento do jogo. Em seguida, utilizamos a função preload para carregar os assets selecionados:*
 
 
-![alt text](../assets/2.png)
+![alt text](assets/2.png)
 
 
 *Em seguida, aplicamos as propriedades nas variáveis que foram definidas e definimos as teclas de movimentação:*
 
 
-![alt text](../assets/3.png)
+![alt text](assets/3.png)
 
 
-![alt text](../assets/4.png)
+![alt text](assets/4.png)
 
 
 *A última parte do código foi definida para manter as atualizações conforme a movimentação do personagem quando as teclas definidas para isso são utilizadas:*
 
 
-![alt text](../assets/5.png)
+![alt text](assets/5.png)
 
 
-![alt text](../assets/6.png)
+![alt text](assets/6.png)
 
 
 *Assim, o desenvolvimento do MVP foi concluído com os recursos e aprendizados que tivemos durante a primeira semana de aula.*
